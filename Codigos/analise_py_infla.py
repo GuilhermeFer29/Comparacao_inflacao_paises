@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import re
 
 # Importando o dataset
-df = pd.read_csv('paises_europa/tabela_paises.csv')
+df = pd.read_csv('../paises_europa/tabela_paises.csv')
 df.head() # Mostrando as primeiras linhas do dataset
 
 paises_eur = df.columns[1:].tolist() # Lista de países da Europa
